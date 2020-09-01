@@ -1,0 +1,41 @@
+#sideboard1 {
+    background-color: rgb(229, 230, 235);
+    height: 300px;
+    width: 270px;
+    border: solid rgb(209, 210, 214);
+
+} 
+
+#sidehead {
+    padding-top: 20px;
+    text-align: center;
+    
+
+}
+
+#wrapper {
+    margin-top: 20px;
+}
+
+#form1 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#beets {
+    border: solid rgb(209, 210, 214);
+    border-radius: 6%;
+    padding: 2px;
+}
+
+#carrots {
+    border: solid rgb(209, 210, 214);
+    border-radius: 6%;
+    padding: 2px;
+}
+
+#celery {
+    border: solid rgb(209, 210, 214);
+    border-radius: 6%;
+    padding: 2px;
+}

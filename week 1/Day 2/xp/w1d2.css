@@ -1,0 +1,57 @@
+#topbox {
+    border: rgb(94, 94, 105) solid 5px;
+    background-color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 250px;
+    margin-left: 250px; 
+     
+}
+
+#title {
+    color: teal;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#job {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+
+}
+
+#picture {
+    border: solid teal 7px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.header {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+#info {
+    border: rgb(94, 94, 105) solid 5px;
+    background-color: rgb(94, 94, 105);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 350px;
+    margin-left: 350px; 
+}
+
+.contactinfo {
+    color: white;
+    display: flex;
+    justify-content: center;
+}

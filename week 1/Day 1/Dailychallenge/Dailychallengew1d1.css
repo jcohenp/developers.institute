@@ -1,0 +1,30 @@
+body {
+	background-image: url(https://wallpaperaccess.com/full/645142.jpg);
+	background-size: cover;
+}
+
+#thor {
+	color: red; 
+	font-size: 30px;
+
+}
+div {
+	color: yellow;
+	margin-top: 30px;
+}
+#about {
+	color: white; 
+	margin-top: 250px; 
+}
+
+#end {
+
+	color: yellow; 
+	font-style: italic;
+
+}
+
+#pic {
+
+	margin-top: 10px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+
+</head>
+<body>
+    <script>
+            var allbooks = [{title: "Lord of the rings", author: "J.R.R.Tolkien", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9J-GRSB8X4EqkpnfgmXghIyXK6KOnyyfYzQiIKVzLoDYQeUnRDs9abVfruA&usqp=CAc", alreadyread:false},
+                            {title: "Sherlock Holmes", author: "Sir Arthur Conan Doyle", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRc0e_GSw4akV1en3hgn0xkbY-hWWntbWVsLg&usqp=CAU", alreadyread: true}]
+                            
+                       
+                var bdy = document.getElementsByTagName("body")[0];
+                var tbl = document.createElement("div");
+                tbl.style.display = "flex";
+                bdy.appendChild(tbl);
+                tbl.style.width = "70%";
+                tbl.style.justifyContent = "center";
+                tbl.style.margin = "auto";
+                                                
+
+                for (var x of allbooks) {
+                book = document.createElement("div");
+                book.innerHTML = "<h1>"+x.title +"</h1>"+"<br>"+"<p> written by "+x.author +"</p>" + "<br><img style = width: 100px src="+x.image +"</img>";
+                book.style.border = "3px solid green";
+                book.style.margin = "5px";
+                book.style.textAlign = "center";
+                tbl.appendChild(book);
+                if (x.alreadyread === true) {
+                book.style.border = "3px solid red";
+                }
+                                                    
+            }
+                        
+          
+        </script>
+    </body>
+</html>
