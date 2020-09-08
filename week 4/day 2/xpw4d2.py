@@ -64,6 +64,14 @@ print(basket)
 mylist = [1,2,3,4,5,6,7,8]
 for i in range (len(mylist),0,-1):
     print(i)
+# In the exercise 9 they ask to create a while loop for getting elements from the end to the begening.
+# Below is an example how to loop over a list from the end to the begining
+# pos = len(mylist) - 1
+# while pos >= 0 :
+#     print(mylist[pos])
+#     pos -= 1
+# Try to do the Exercise 10 with this kind of while loop
+
     
 #10 While doesn't make sense to use. Used for loop instead.   
 mylist = [1,2,3,4,5,6,7,8]
@@ -79,6 +87,7 @@ for i in range(0,31,3):
 print(mult)
 
 #12
+# Here a careless mistake if you want to iterate until 2700 you need to do "range(1500, 2701)"
 for num in range (1500, 2700):
     if num % 7 == 0 and num % 5 == 0:
         print(num)
